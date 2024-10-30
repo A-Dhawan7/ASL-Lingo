@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lingo Clone
 
-## Getting Started
+## Table of Contents
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-First, run the development server:
+## Project Description
+This project is a clone of the popular language-learning app Duolingo. It leverages machine learning for personalized learning paths, utilizing computer vision for sign language recognition (ASL) and interactive language learning exercises. The goal is to provide users with an engaging and effective platform to learn new languages.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- **User Authentication**: Secure user login and registration through Clerk.
+- **Interactive Lessons**: Users can learn through various exercises, including listening, speaking, reading, and writing.
+- **Machine Learning Integration**: Adaptive learning paths based on user performance, utilizing algorithms for personalized content delivery.
+- **ASL Recognition**: Computer vision capabilities for recognizing American Sign Language gestures.
+- **Progress Tracking**: Users can track their learning progress and achievements over time.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used
+- **Frontend**: React.js for building user interfaces.
+- **Backend**: Drizzle ORM and Neon for handling API requests, managing user data, for storing user information, and learning data.
+- **Machine Learning**: PyTorch and TensorFlow for implementing models related to language learning and computer vision.
+- **Cloud Services**: IBM Cloud for hosting the application and managing storage solutions.
